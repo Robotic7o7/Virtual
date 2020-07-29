@@ -688,7 +688,7 @@ sup {
         #fp-nav ul li a.active span:after {
           opacity: 1;
           transform: rotateZ(-90deg);
-          color: #5f05ff; }
+          color: #0052a1; }
       #fp-nav ul li a.active .fp-tooltip {
         animation: fade-tooltip 1.2s 0.4s ease;
         animation-iteration-count: 1; }
@@ -705,7 +705,7 @@ sup {
     #fp-nav ul li:hover a span:after {
       opacity: 1;
       transform: rotateZ(-90deg);
-      color: #5f05ff; }
+      color: #0052a1; }
     #fp-nav ul li:hover .fp-tooltip {
       top: 2px;
       opacity: 1;
@@ -771,7 +771,7 @@ sup {
       color: #FFFFFF;
       border: none;
       border-left: none;
-      background: #5f05ff;
+      background: #0052a1;
       width: auto;
       float: left;
       position: relative;
@@ -878,7 +878,7 @@ p.notify-valid {
     .inside-content .text li {
       font-weight: 700; }
       .inside-content .text li .fa {
-        color: #5f05ff; }
+        color: #0052a1; }
 
 /* ------------------------------------- */
 /* CONTACT FORM ........................ */
@@ -891,7 +891,7 @@ p.notify-valid {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.7) !important; }
   #contact-form .form-group:hover .icon-fields {
-    color: #5f05ff; }
+    color: #0052a1; }
   #contact-form .icon-fields {
     position: absolute;
     top: 12px;
@@ -899,7 +899,7 @@ p.notify-valid {
     color: rgba(255, 255, 255, 0.15);
     transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
     #contact-form .icon-fields.active {
-      color: #5f05ff; }
+      color: #0052a1; }
   #contact-form .form-group {
     padding-left: 35px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
@@ -1025,7 +1025,7 @@ p.notify-valid {
     text-transform: uppercase;
     color: #FFFFFF;
     border: none;
-    background: #5f05ff;
+    background: #0052a1;
     position: relative;
     overflow: hidden;
     border-radius: 35px; }
@@ -1126,8 +1126,8 @@ p.notify-valid {
         .social-nav ul li a:hover {
           color: #FFFFFF; }
           .social-nav ul li a:hover:before {
-            border: 1px solid #5f05ff;
-            background: #5f05ff;
+            border: 1px solid #0052a1;
+            background: #0052a1;
             transform: rotate(135deg); }
         .social-nav ul li a i {
           position: relative;
