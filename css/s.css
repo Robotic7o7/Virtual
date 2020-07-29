@@ -1,0 +1,52 @@
+.card {
+  width: 250px;
+  height: 310px;
+  background-color: #0052a1;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.Im {
+  height: 120px;
+  width: 120px;
+  text-align: center;
+  justify-content: center;
+}
+
+.te {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+.te1 {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.but {
+  display: block;
+  background-color: #000;
+  height: 20px;
+  width: 170px;
+  text-align: center;
+  margin-left: 30px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.lin {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: 100;
+  font-size: 15px;
+  text-decoration: none;
+}
