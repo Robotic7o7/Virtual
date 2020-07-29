@@ -1511,5 +1511,11 @@ p.notify-valid {
       left:50%;
       transform: translate(-50%,-50%);
     }
+
+    @media screen and (max-width: 800px) {
+      .dis {
+        width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+      }
+    }
     
     
