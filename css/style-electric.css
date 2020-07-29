@@ -1519,6 +1519,11 @@ p.notify-valid {
         flex-direction: column;
         margin-top:450px;
       }
+
+      .card{
+        margin-left:10px;
+      }
+
       .social-nav{
         margin-top:800px;
       }
