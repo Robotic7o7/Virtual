@@ -1514,8 +1514,15 @@ p.notify-valid {
 
     @media screen and (max-width: 800px) {
       .dis {
-        width: 50%; /* The width is 100%, when the viewport is 800px or smaller */
+        position:absolute;
+        display: flex;
+        flex-direction: column;
+        margin-top:450px;
       }
+      .social-nav{
+        margin-top:800px;
+      }
+
     }
     
     
