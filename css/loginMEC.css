@@ -1,13 +1,22 @@
+html {
+  background-color: #0052a1;
+}
+
 .card {
   width: 250px;
-  height: 310px;
-  background-color: #0052a1;
+  height: 330px;
+  background-color: #fff;
   border-radius: 10px;
   padding: 10px;
   text-align: center;
   display: flex;
   flex-direction: column;
   padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 15px #1b1b1b;
 }
 
 .Im {
@@ -19,28 +28,30 @@
 
 .te {
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: #000;
   font-weight: 900;
   font-size: 25px;
 }
 
 .te1 {
   font-family: "Montserrat", sans-serif;
-  color: #fff;
+  color: #000;
   font-weight: 700;
   font-size: 15px;
   margin-top: 5px;
 }
 
 .but {
-  display: block;
   background-color: #000;
-  height: 20px;
-  width: 170px;
+  height: 40px;
+  width: 190px;
   text-align: center;
   margin-left: 30px;
   border-radius: 5px;
   padding: 10px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 
 .lin {
@@ -49,4 +60,25 @@
   font-weight: 100;
   font-size: 15px;
   text-decoration: none;
+}
+
+.in {
+  height: 20px;
+  width: 180px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 8px #dadada;
+  border: 2px solid #0052a1;
+  margin-left: 30px;
+}
+
+i {
+  color: #fff;
+}
+
+.but:hover {
+  border: 2px solid #000;
+  background-color: rgb(26, 223, 75);
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
