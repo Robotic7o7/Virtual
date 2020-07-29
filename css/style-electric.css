@@ -1446,7 +1446,8 @@ p.notify-valid {
       display: flex;
       flex-direction: column;
       padding: 10px;
-      transform:translateX(10%)
+      margin-right:10px;
+      
     }
 
     .card2 {
@@ -1460,7 +1461,8 @@ p.notify-valid {
       display: flex;
       flex-direction: column;
       padding: 10px;
-      transform:translateX(-10%)
+      margin-left:10px;
+      
     }
     
     .Im {
@@ -1499,6 +1501,15 @@ p.notify-valid {
       font-weight: 400;
       font-size: 13px;
       text-decoration: none;
+    }
+
+    .dis{
+      position: absolute;
+      display: flex;
+      flex-direction: row;
+      top:10%;
+      left:50%;
+      transform: translate(-50%,-50%);
     }
     
     
